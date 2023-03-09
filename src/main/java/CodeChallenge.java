@@ -25,4 +25,5 @@ public class CodeChallenge {
         Arrays.sort(removedDuplicates, Collections.reverseOrder());
         return removedDuplicates;
     }
+
 }

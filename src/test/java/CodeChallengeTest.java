@@ -12,7 +12,6 @@ public class CodeChallengeTest {
         assertEquals(6, CodeChallenge.uniqueNumbers(new Integer[]{1, 1, 2, 2, 3, 3, 4, 4, 5, 6}).length);
         assertEquals(6, CodeChallenge.uniqueNumbers(new Integer[]{1, 12, 2, 2, 3, 3, 4, 4, 5, 5}).length);
         assertEquals(6, CodeChallenge.uniqueNumbers(new Integer[]{100, 100, 78, 78, 36, 36, 24, 24, 17, 5}).length);
-
     }
 
     @Test
@@ -32,4 +31,5 @@ public class CodeChallengeTest {
         assertArrayEquals(new Integer[]{12, 5, 4, 3, 2, 1}, CodeChallenge.uniqueNumbersDesc(new Integer[]{1, 12, 2, 2, 3, 3, 4, 4, 5, 5}));
         assertArrayEquals(new Integer[]{100, 78, 36, 24, 17, 5}, CodeChallenge.uniqueNumbersDesc(new Integer[]{100, 100, 78, 78, 36, 36, 24, 24, 17, 5}));
     }
+
 }
